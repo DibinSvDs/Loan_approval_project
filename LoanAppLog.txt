@@ -1,0 +1,14 @@
+08-08 23:58 root         INFO     Connected to loan_data.db
+08-08 23:58 werkzeug     INFO     [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.87.240:80
+08-08 23:58 werkzeug     INFO     [33mPress CTRL+C to quit[0m
+08-08 23:58 werkzeug     INFO     192.168.87.240 - - [08/Aug/2023 23:58:52] "GET / HTTP/1.1" 200 -
+08-08 23:58 werkzeug     INFO     192.168.87.240 - - [08/Aug/2023 23:58:53] "GET /application.html HTTP/1.1" 200 -
+08-08 23:59 root         INFO     Capturing app data Dibin
+08-08 23:59 root         INFO     ['Dibin', 'dibinvsivadas@gmail.com', '27', '1', '1', '1', '0', '0', '2000', '2000', '2', '2', '0', '2']
+08-08 23:59 root         INFO     Connected to loan_data.db
+08-08 23:59 root         INFO     DB commit successful
+08-08 23:59 root         INFO     Your loan application with ID [ 12] is approved
+08-08 23:59 werkzeug     INFO     192.168.87.240 - - [08/Aug/2023 23:59:13] "POST /application.html HTTP/1.1" 200 -
